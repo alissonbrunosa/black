@@ -24,7 +24,7 @@ highlight PmenuSbar    guibg=#202020
 highlight PmenuSel     guibg=#61AFEF guifg=#202020
 highlight PmenuThumb   guibg=#000000
 highlight Todo 	       guifg=#BF616A guibg=#000000
-highlight Search       guibg=#FFFFFF
+highlight Search       guifg=#000000 guibg=#D8DEE9
 highlight QuickFixLine guifg=#C8C8C8 guibg=#202020 gui=NONE cterm=NONE
 highlight Directory    guifg=#61AFEF
 
