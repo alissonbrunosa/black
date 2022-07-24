@@ -15,8 +15,8 @@ highlight SpecialKey   guifg=#181818
 highlight Identifier   guifg=#C8C8C8 ctermfg=white
 highlight LineNr       guifg=#808080 guibg=#000000 ctermfg=white ctermbg=black
 highlight CursorLineNr guifg=#D8DEE9 gui=NONE cterm=NONE
-highlight CursorLine   guibg=#202020 gui=NONE cterm=NONE
-highlight Visual       guibg=#202020 gui=NONE cterm=NONE
+highlight CursorLine   guibg=#3D3D3D gui=NONE cterm=NONE
+highlight Visual       guibg=#3D3D3D gui=NONE cterm=NONE
 highlight Normal       guifg=#D8DEE9 guibg=#000000 ctermfg=white ctermbg=black
 highlight SignColumn   guifg=#C8C8C8 guibg=#000000 ctermfg=white ctermbg=black
 highlight Pmenu        guifg=#D8DEE9 guibg=#202020
@@ -38,12 +38,13 @@ highlight Conditional  guifg=#EBCB8B
 highlight Comment      guifg=#808080
 highlight Special      guifg=#D8DEE9
 highlight NonText      guifg=#181818
-highlight Number       guifg=#EB8BAB
+highlight Number       guifg=#D08770
 highlight String       guifg=#A3BE8C
 highlight Character    guifg=#A3BE8C
 highlight Boolean      guifg=#61AFEF
 highlight Function     guifg=#C8C8C8
-highlight Constant     guifg=#D08770
+highlight Constant     guifg=#EB8BAB
+
 
 highlight DiffAdd      guibg=#A3BE8C guifg=#000000
 highlight DiffChange   guibg=#EBCB8B guifg=#000000
