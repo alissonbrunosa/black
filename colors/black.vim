@@ -27,27 +27,30 @@ highlight Todo 	       guifg=#BF616A guibg=#000000
 highlight Search       guifg=#000000 guibg=#61AFEF
 highlight QuickFixLine guifg=#C8C8C8 guibg=#202020 gui=NONE cterm=NONE
 highlight Directory    guifg=#61AFEF
+highlight MatchParen   guifg=#FA2FB5 guibg=NONE
+
 
 " General Langs
-highlight Keyword      guifg=#EBCB8B
-highlight Type         guifg=#EBCB8B
-highlight Repeat       guifg=#EBCB8B
-highlight Statement    guifg=#EBCB8B
-highlight Label        guifg=#EBCB8B
-highlight Conditional  guifg=#EBCB8B
+highlight Include      guifg=#FA2FB5
+highlight Keyword      guifg=#FFC23C
+highlight Type         guifg=#FFC23C
+highlight Repeat       guifg=#FFC23C
+highlight Statement    guifg=#FFC23C
+highlight Label        guifg=#FFC23C
+highlight Conditional  guifg=#FFC23C
 highlight Comment      guifg=#808080
 highlight Special      guifg=#D8DEE9
 highlight NonText      guifg=#181818
 highlight Number       guifg=#D08770
-highlight String       guifg=#A3BE8C
+highlight String       guifg=#59CE8F
 highlight Character    guifg=#A3BE8C
 highlight Boolean      guifg=#61AFEF
 highlight Function     guifg=#C8C8C8
-highlight Constant     guifg=#EB8BAB
+highlight Constant     guifg=#FA2FB5
 
 
 highlight DiffAdd      guibg=#A3BE8C guifg=#000000
-highlight DiffChange   guibg=#EBCB8B guifg=#000000
+highlight DiffChange   guibg=#FFC23C guifg=#000000
 highlight DiffDelete   guibg=#BF616A guifg=#000000
 highlight link diffAdded   DiffAdd
 highlight link diffChanged DiffChange
@@ -65,9 +68,9 @@ highlight link rubyConstant       Constant
 
 highlight rubyInterpolation          guifg=#C8C8C8
 highlight rubyInterpolationDelimiter guifg=#C8C8C8
-highlight rubyRegexp                 guifg=#A3BE8C
-highlight rubyRegexpDelimiter        guifg=#A3BE8C
-highlight rubyStringDelimiter        guifg=#A3BE8C
+highlight rubyRegexp                 guifg=#59CE8F
+highlight rubyRegexpDelimiter        guifg=#59CE8F
+highlight rubyStringDelimiter        guifg=#59CE8F
 highlight rubySymbol                 guifg=#ECEFF4 gui=bold cterm=bold
 
 
@@ -81,3 +84,4 @@ highlight GitGutterAdd          guifg=#006600
 highlight GitGutterChange       guifg=#FFFF33
 highlight GitGutterDelete       guifg=#CC0000
 highlight GitGutterChangeDelete guifg=#CC0000
+
