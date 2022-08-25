@@ -21,12 +21,12 @@ highlight Normal       guifg=#D8DEE9 guibg=#000000 ctermfg=white ctermbg=black
 highlight SignColumn   guifg=#C8C8C8 guibg=#000000 ctermfg=white ctermbg=black
 highlight Pmenu        guifg=#D8DEE9 guibg=#202020
 highlight PmenuSbar    guibg=#202020
-highlight PmenuSel     guibg=#61AFEF guifg=#202020
+highlight PmenuSel     guibg=#1F57E7 guifg=#202020
 highlight PmenuThumb   guibg=#000000
 highlight Todo 	       guifg=#BF616A guibg=#000000
-highlight Search       guifg=#000000 guibg=#61AFEF
+highlight Search       guifg=#000000 guibg=#1F57E7
 highlight QuickFixLine guifg=#C8C8C8 guibg=#202020 gui=NONE cterm=NONE
-highlight Directory    guifg=#61AFEF
+highlight Directory    guifg=#1F57E7
 highlight MatchParen   guifg=#FA2FB5 guibg=NONE
 
 
@@ -43,15 +43,15 @@ highlight Special      guifg=#D8DEE9
 highlight NonText      guifg=#181818
 highlight Number       guifg=#D08770
 highlight String       guifg=#59CE8F
-highlight Character    guifg=#A3BE8C
-highlight Boolean      guifg=#61AFEF
+highlight Character    guifg=#59CE8F
+highlight Boolean      guifg=#1F57E7
 highlight Function     guifg=#C8C8C8
 highlight Constant     guifg=#FA2FB5
 
 
-highlight DiffAdd      guibg=#A3BE8C guifg=#000000
+highlight DiffAdd      guibg=#59CE8F guifg=#000000
 highlight DiffChange   guibg=#FFC23C guifg=#000000
-highlight DiffDelete   guibg=#BF616A guifg=#000000
+highlight DiffDelete   guibg=#FD0B00 guifg=#000000
 highlight link diffAdded   DiffAdd
 highlight link diffChanged DiffChange
 highlight link diffRemoved DiffDelete
@@ -80,8 +80,8 @@ highlight link goType Keyword
 
 
 " Git gutter
-highlight GitGutterAdd          guifg=#006600
+highlight GitGutterAdd          guifg=#59CE8F
 highlight GitGutterChange       guifg=#FFFF33
-highlight GitGutterDelete       guifg=#CC0000
-highlight GitGutterChangeDelete guifg=#CC0000
+highlight GitGutterChangeDelete guifg=#FD0B00
+highlight GitGutterDelete       guifg=#FD0B00
 
